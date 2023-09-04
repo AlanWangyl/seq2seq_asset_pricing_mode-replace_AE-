@@ -8,7 +8,7 @@
 python data_prepare.py
 
 # train models (ALL together)
-python main.py --Model 'FF PCA IPCA CA0 CA1 CA2 CA3' --K '1 2 3 4 5 6'
+python main.py --Model 'IPCA CA0 CA1 CA2 CA3 seq2seq1 seq2seq2 seq2seq3' --K '1 2 3 4 5 6'
 
 # train models (selected models and K, for example)
 python main.py --Model 'IPCA CA3' --K '5 6'
